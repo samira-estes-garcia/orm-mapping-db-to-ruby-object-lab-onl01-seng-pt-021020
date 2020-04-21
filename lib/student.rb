@@ -51,7 +51,7 @@ class Student
   
   def self.first_X_students_in_grade_10
     sql = <<-SQL
-    SELECT * f
+    SELECT * FROM students WHERE name = 
   end
   
   def save
